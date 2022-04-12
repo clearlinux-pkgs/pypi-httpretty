@@ -4,7 +4,7 @@
 #
 Name     : pypi-httpretty
 Version  : 1.1.4
-Release  : 68
+Release  : 69
 URL      : https://files.pythonhosted.org/packages/6e/19/850b7ed736319d0c4088581f4fc34f707ef14461947284026664641e16d4/httpretty-1.1.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/6e/19/850b7ed736319d0c4088581f4fc34f707ef14461947284026664641e16d4/httpretty-1.1.4.tar.gz
 Summary  : HTTP client mock for Python
@@ -14,9 +14,6 @@ Requires: pypi-httpretty-license = %{version}-%{release}
 Requires: pypi-httpretty-python = %{version}-%{release}
 Requires: pypi-httpretty-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: httpretty
-Provides: httpretty-python
-Provides: httpretty-python3
 
 %description
 ===============
@@ -57,7 +54,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641443129
+export SOURCE_DATE_EPOCH=1649760336
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
